@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "CharityViewBooster",
+    "version": "1.0",
+    "description": "Boost charity YouTube channels with views!",
+    "permissions": ["tabs", "identity", "storage"],
+    "host_permissions": ["https://www.googleapis.com/*", "https://www.youtube.com/*"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://www.youtube.com/*"],
+        "js": ["content.js"]
+      }
+    ],
+    "oauth2": {
+      "client_id": "230604548440-cl0l5dlgc1muoldm9tr57f1puo7enjec.apps.googleusercontent.com",
+      "scopes": ["https://www.googleapis.com/auth/userinfo.email"]
+    }
+  }

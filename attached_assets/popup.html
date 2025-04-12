@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CharityViewBooster</title>
+    <link rel="stylesheet" href="popup.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="login" style="display: none;">
+      <button id="loginBtn">Sign in with Google</button>
+    </div>
+    <div id="main" style="display: none;">
+      <h3>Pick a Charity Creator</h3>
+      <select id="channelSelect">
+        <option value="">Select a channel</option>
+        <option value="UCX6OQ3DkcsbYNE6H8uQQuVA">MrBeast Main Channel</option>
+        <option value="UC6Bkb7sGltQ8BNgwxw9B2ow">Beast Philanthropy</option>
+        <option value="UCRijo3ddMTht_IHyNSNXpNQ">TeamTrees</option>
+      </select>
+      <button id="startBtn">Start Boosting</button>
+      <button id="stopBtn">Stop</button>
+      <div id="dashboard">
+        <h4>Your Impact</h4>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 320px;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+  }
+  
+  #login, #main {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  h3, h4 {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #2c3e50;
+  }
+  
+  select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  select {
+    background-color: #f0f2f5;
+    color: #666;
+  }
+  
+  select:focus {
+    outline: none;
+    background-color: #e8ecef;
+  }
+  
+  button {
+    background-color: #74c0fc;
+    color: #fff;
+    font-weight: 500;
+  }
+  
+  button:hover {
+    background-color: #4dabf7;
+  }
+  
+  #stopBtn {
+    background-color: #ff6b6b;
+  }
+  
+  #stopBtn:hover {
+    background-color: #ff8787;
+  }
+  
+  #dashboard {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+  }
+  
+  #dashboard h4 {
+    font-size: 14px;
+    color: #2c3e50;
+  }
+  
+  #dashboard p {
+    font-size: 13px;
+    color: #666;
+  }
+  
+  #viewCount {
+    font-weight: 600;
+    color: #74c0fc;
+  }
